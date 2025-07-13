@@ -21,7 +21,8 @@ This project helps job seekers apply only to **high-fit roles**
 - Python 3.8+
 - Gemini API Key from [Google AI Studio](https://makersuite.google.com/app/apikey)
 
-Install dependencies
+## ⚙️ Setup Instructions
+- Install dependencies
 - Get Gemini API Key
 - Add .env File: GEMINI_API_KEY=your_api_key_here
 - Open main.py, and replace the Naukri filter URL:: base_url = "https://www.naukri.com/python-developer-jobs-in-bangalore"
