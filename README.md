@@ -25,6 +25,7 @@ This project helps job seekers apply only to **high-fit roles**
 - Install dependencies
 - Get Gemini API Key
 - Add .env File: GEMINI_API_KEY=your_api_key_here
+- Add resume in the jobs_scores.py
 - Open main.py, and replace the Naukri filter URL:: base_url = "https://www.naukri.com/python-developer-jobs-in-bangalore"
 - Run the Script: python main.py
 
