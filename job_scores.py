@@ -15,37 +15,7 @@ genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 def build_prompt(job_text):
   resume_text = """
-SUMMARY
-Proficient software engineer with 3 years of experience in developing Python Systems or Services. Experienced in enhancing applications and managing full-cycle deployments using Azure DevOps. Currently exploring AI-based solutions and automation tools like n8n, OpenAI to drive continuous improvement and efficiency.
-
-PROFESSIONAL EXPERIENCE
-ARM Embedded Technologies | Sept 2024 - Present  | Support Specialist: Digital Platform Full Stack
-  - Created a simple web application using Flask where users can upload Excel files to automatically update desk details, making the process faster and more accurate.
-  - Created many alerts in Azure using KQL for proactive issue detection. 
-  - Deployed application code to production and pre-production environments using Azure DevOps.
-  - Implemented the Power BI dashboard to get an overview of the application performance, reducing monitoring effort by over 80%.  
-  - Worked on UI enhancements and feature development using React JS based on requirements.
-  - Built Log anomaly detection using ML models and OpenAI, reducing the manual effort by 40%. 
-
-Tata Consultancy Services | Systems Engineer | Oct 2021 - Sept 2024
-- Created numerous file-processing and database services using Python based on business needs.
-- Scheduled cron jobs in Azure DevOps using Python.
-- Implemented new features and functionalities in React JS.
-- Built dashboards for application performance monitoring using React JS.
-- Managed deployment of code to production environments using Azure DevOps.
-- Analyzed reports, identified root causes, monitored application stability, and addressed bugs.
-- Used KQL extensively to analyze logs and diagnose system issues.
-- Awarded Star of the Quarter (Oct 2022). Top 10 in Tata Neu app ideathon.
-
-TECHNICAL SKILLS
-- Programming: Python, JavaScript
-- Web: HTML5, CSS, React JS, Flask
-- Database: MySQL, PL/SQL (basic)
-- Competencies: Problem-Solving, Data Structures & Algorithms, Troubleshooting, System Monitoring, Unit Testing
-- Methodologies: Agile, DevOps, CI/CD
-
-EDUCATION
-SJB Institute of Technology | B.E. in Computer Science | 8.38 CGPA | Aug 2017 - Aug 2021
+add your resume
 """
   return f"""
 You are an expert career assistant.
